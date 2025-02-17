@@ -1,5 +1,5 @@
 const fs=require('fs');
-    fs.unlink("data.txt",(err)=>{
+    fs.unlink("./mydir/data.txt",(err)=>{
         if(err){
             console.log("Error deleting file: ${err}");
             return;
